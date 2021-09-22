@@ -89,9 +89,9 @@ public class MainActivity extends AppCompatActivity {
         byte[] bytes = resultado.getScanRecord().getBytes();
         int rssi = resultado.getRssi();
 
-        Log.d(ETIQUETA_LOG, " ****************************************************");
-        Log.d(ETIQUETA_LOG, " ****** DISPOSITIVO DETECTADO BTLE ****************** ");
-        Log.d(ETIQUETA_LOG, " ****************************************************");
+        Log.d(ETIQUETA_LOG, " ******************");
+        Log.d(ETIQUETA_LOG, " ** DISPOSITIVO DETECTADO BTLE ****** ");
+        Log.d(ETIQUETA_LOG, " ******************");
         Log.d(ETIQUETA_LOG, " nombre = " + bluetoothDevice.getName());
         Log.d(ETIQUETA_LOG, " toString = " + bluetoothDevice.toString());
 
@@ -125,7 +125,7 @@ public class MainActivity extends AppCompatActivity {
         Log.d(ETIQUETA_LOG, " minor  = " + Utilidades.bytesToHexString(tib.getMinor()) + "( "
                 + Utilidades.bytesToInt(tib.getMinor()) + " ) ");
         Log.d(ETIQUETA_LOG, " txPower  = " + Integer.toHexString(tib.getTxPower()) + " ( " + tib.getTxPower() + " )");
-        Log.d(ETIQUETA_LOG, " ****************************************************");
+        Log.d(ETIQUETA_LOG, " ******************");
 
     } // ()
 
@@ -168,7 +168,7 @@ public class MainActivity extends AppCompatActivity {
 
         Log.d(ETIQUETA_LOG, "  buscarEsteDispositivoBTLE(): empezamos a escanear buscando: " + dispositivoBuscado );
         //Log.d(ETIQUETA_LOG, "  buscarEsteDispositivoBTLE(): empezamos a escanear buscando: " + dispositivoBuscado
-          //      + " -> " + Utilidades.stringToUUID( dispositivoBuscado ) );
+        //      + " -> " + Utilidades.stringToUUID( dispositivoBuscado ) );
 
         this.elEscanner.startScan( this.callbackDelEscaneo );
     } // ()
@@ -307,5 +307,3 @@ public class MainActivity extends AppCompatActivity {
 // --------------------------------------------------------------
 // --------------------------------------------------------------
 // --------------------------------------------------------------
-
-
