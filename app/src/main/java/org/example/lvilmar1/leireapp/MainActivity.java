@@ -10,12 +10,15 @@ import android.bluetooth.le.BluetoothLeScanner;
 import android.bluetooth.le.ScanCallback;
 import android.bluetooth.le.ScanFilter;
 import android.bluetooth.le.ScanResult;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.ParcelUuid;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
@@ -35,6 +38,9 @@ public class MainActivity extends AppCompatActivity {
     private static final String ETIQUETA_LOG = ">>>>";
 
     private static final int CODIGO_PETICION_PERMISOS = 11223344;
+
+    EditText txtMediciones;
+    Button btnInsertar;
 
     // --------------------------------------------------------------
     // --------------------------------------------------------------
@@ -259,6 +265,75 @@ public class MainActivity extends AppCompatActivity {
         }
     } // ()
 
+    public void guardarDatos(View quien) {
+        Log.d("clienterestandroid", "boton_enviar_pulsado");
+
+
+        // ojo: creo que hay que crear uno nuevo cada vez
+        PeticionarioREST elPeticionario = new PeticionarioREST();
+
+		/*
+
+		   enviarPeticion( "hola", function (res) {
+		   		res
+		   })
+
+        elPeticionario.hacerPeticionREST("GET",  "http://158.42.144.126:8080/prueba", null,
+			(int codigo, String cuerpo) => { } );
+
+		   */
+        //la contrabarra es pa clavar la cometa dins del string sense tancar el stringç
+        //http://localhost/phpmyadmin/sql.php?db=android_mysql&table=datosmedidos&pos=0
+        String textoJSON = "{\"Medicion\":\"" + txtMediciones.getText() + "\"}";
+        elPeticionario.hacerPeticionREST("POST", "http://10.236.29.43/backend_SprintLeire/insertar.php", textoJSON,
+                new PeticionarioREST.RespuestaREST() {
+                    @Override
+                    public void callback(int codigo, String cuerpo) {
+                        txtMediciones.setText("codigo respuesta= " + codigo + " <-> \n" + cuerpo);
+                    }
+                }
+        );
+
+
+    }
+    private Intent elIntentDelServicio = null;
+
+    // ---------------------------------------------------------------------------------------------
+    // ---------------------------------------------------------------------------------------------
+    public void botonArrancarServicioPulsado( View v ) {
+        Log.d(ETIQUETA_LOG, " boton arrancar servicio Pulsado" );
+
+        if ( this.elIntentDelServicio != null ) {
+            // ya estaba arrancado
+            return;
+        }
+
+        Log.d(ETIQUETA_LOG, " MainActivity.constructor : voy a arrancar el servicio");
+
+        this.elIntentDelServicio = new Intent(this, ServicioEscuharBeacons.class);
+
+        this.elIntentDelServicio.putExtra("tiempoDeEspera", (long) 5000);
+        startService( this.elIntentDelServicio );
+
+    } // ()
+
+    // ---------------------------------------------------------------------------------------------
+    // ---------------------------------------------------------------------------------------------
+    public void botonDetenerServicioPulsado( View v ) {
+
+        if ( this.elIntentDelServicio == null ) {
+            // no estaba arrancado
+            return;
+        }
+
+        stopService( this.elIntentDelServicio );
+
+        this.elIntentDelServicio = null;
+
+        Log.d(ETIQUETA_LOG, " boton detener servicio Pulsado" );
+
+
+    } // ()
 
     // --------------------------------------------------------------
     // --------------------------------------------------------------
@@ -267,6 +342,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        txtMediciones = findViewById(R.id.txtMediciones);
 
         Log.d(ETIQUETA_LOG, " onCreate(): empieza ");
 
