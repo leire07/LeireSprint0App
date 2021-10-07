@@ -3,12 +3,14 @@ org/example/lvilmar1/leireapp/Utilidades.java
 org/example/lvilmar1/leireapp/PeticionarioREST.java
  org.example.lvilmar1.leireapp.PeticionarioREST
  org.example.lvilmar1.leireapp.PeticionarioREST$RespuestaREST
+org/example/lvilmar1/leireapp/TramaIBeacon.java
+ org.example.lvilmar1.leireapp.TramaIBeacon
+org/example/lvilmar1/leireapp/ServicioEscuharBeacons.java
+ org.example.lvilmar1.leireapp.ServicioEscuharBeacons
+org/example/lvilmar1/leireapp/BuildConfig.java
+ org.example.lvilmar1.leireapp.BuildConfig
 org/example/lvilmar1/leireapp/MainActivity.java
  org.example.lvilmar1.leireapp.MainActivity
  org.example.lvilmar1.leireapp.MainActivity$1
  org.example.lvilmar1.leireapp.MainActivity$2
  org.example.lvilmar1.leireapp.MainActivity$3
-org/example/lvilmar1/leireapp/BuildConfig.java
- org.example.lvilmar1.leireapp.BuildConfig
-org/example/lvilmar1/leireapp/TramaIBeacon.java
- org.example.lvilmar1.leireapp.TramaIBeacon

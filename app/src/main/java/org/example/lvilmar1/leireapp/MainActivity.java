@@ -285,7 +285,7 @@ public class MainActivity extends AppCompatActivity {
         //la contrabarra es pa clavar la cometa dins del string sense tancar el stringç
         //http://localhost/phpmyadmin/sql.php?db=android_mysql&table=datosmedidos&pos=0
         String textoJSON = "{\"Medicion\":\"" + txtMediciones.getText() + "\"}";
-        elPeticionario.hacerPeticionREST("POST", "http://10.236.29.43/backend_SprintLeire/insertar.php", textoJSON,
+        elPeticionario.hacerPeticionREST("POST", "http://192.168.0.115/backend_SprintLeire/insertar.php", textoJSON,
                 new PeticionarioREST.RespuestaREST() {
                     @Override
                     public void callback(int codigo, String cuerpo) {
