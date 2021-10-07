@@ -41,6 +41,18 @@ public class PeticionarioREST extends AsyncTask<Void, Void, Boolean> {
         this.execute(); // otro thread ejecutará doInBackground()
     }
 
+    //
+    //Ejemplo varios datos en una petición REST
+    /* otro ejemplo:
+		elPeticionario.hacerPeticionREST("POST", "http://192.168.1.113:8080/mensaje",
+				"{\"dni\": \"A9182342W\", \"nombre\": \"Android\", \"apellidos\": \"De Los Palotes\"}",
+				new PeticionarioREST.RespuestaREST () {
+					@Override
+					public void callback(int codigo, String cuerpo) {
+						elTexto.setText ("cdigo respuesta: " + codigo + " <-> \n" + cuerpo);
+					}
+		});
+		*/
     // --------------------------------------------------------------------
     // --------------------------------------------------------------------
     public PeticionarioREST() {

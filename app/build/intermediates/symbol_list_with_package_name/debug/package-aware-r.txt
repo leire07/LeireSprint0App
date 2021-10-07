@@ -2274,6 +2274,8 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id txtLatitud
+id txtLongitud
 id txtMediciones
 id unchecked
 id uniform

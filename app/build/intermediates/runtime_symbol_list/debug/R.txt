@@ -2273,6 +2273,8 @@ int id transition_position 0x7f0801be
 int id transition_scene_layoutid_cache 0x7f0801bf
 int id transition_transform 0x7f0801c0
 int id triangle 0x7f0801c1
+int id txtLatitud 0x7f0801d9
+int id txtLongitud 0x7f0801da
 int id txtMediciones 0x7f0801c2
 int id unchecked 0x7f0801c3
 int id uniform 0x7f0801c4
