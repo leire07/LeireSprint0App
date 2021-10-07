@@ -1917,6 +1917,11 @@ id beginOnFirstDraw
 id beginning
 id bestChoice
 id blocking
+id botonBuscarDispositivosBTLE
+id botonBuscarNuestroDispositivoBTLE
+id botonDetenerBusquedaDispositivosBTLE
+id boton_arrancar_servicio
+id boton_detener_servicio
 id bottom
 id bounce
 id bounceBoth

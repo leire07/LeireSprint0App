@@ -1,4 +1,4 @@
-#Fri Oct 01 15:51:29 CEST 2021
-base.0=C\:\\Users\\LVillarroya Martinez\\Desktop\\LeireSprint0App\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+#Thu Oct 07 13:24:59 CEST 2021
+base.0=C\:\\Users\\LVillarroya Martinez\\Desktop\\Repositorios Sprint 0\\LeireSprint0App\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
