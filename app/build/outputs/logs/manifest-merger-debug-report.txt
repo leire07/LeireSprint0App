@@ -121,12 +121,12 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\LV
 		ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:27:9-46
 	android:usesCleartextTraffic
 		ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:21:9-44
-activity#org.example.lvilmar1.leireapp.MainActivity
+activity#org.example.lvilmar1.leireapp.logicaFake.MainActivity
 ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:28:9-36:20
 	android:exported
 		ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:30:13-36
 	android:name
-		ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:29:13-41
+		ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:29:13-52
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:31:13-35:29
 action#android.intent.action.MAIN
