@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:2:1-43:12
+ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:2:1-46:12
 MERGED from [com.android.volley:volley:1.2.0] C:\Users\LVillarroya Martinez\.gradle\caches\transforms-3\79220074554b1a127a642946cb69507f\transformed\jetified-volley-1.2.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\LVillarroya Martinez\.gradle\caches\transforms-3\25012fcc08d4c5cf5a2844c1a21a6fbe\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\LVillarroya Martinez\.gradle\caches\transforms-3\603d5b366cec0e2b4f7a40320b7dc059\transformed\constraintlayout-2.1.0\AndroidManifest.xml:2:1-11:12
@@ -40,20 +40,20 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\LVillarroya Mart
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\LVillarroya Martinez\.gradle\caches\transforms-3\8ca7186ef83368b8549809152ed428ce\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\LVillarroya Martinez\.gradle\caches\transforms-3\485578c608519582fc751ff2f7c88476\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\LVillarroya Martinez\.gradle\caches\transforms-3\18e5cb54f886f7aa7e26ad4e22b3ac23\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:2:1-46:12
 	package
 		ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:3:5-44
 		INJECTED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:2:1-43:12
+		ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:2:1-46:12
 		INJECTED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:2:1-43:12
+		ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:2:1-46:12
 		INJECTED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:2:11-69
@@ -85,14 +85,18 @@ uses-permission#android.permission.INTERNET
 ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:12:5-66
 	android:name
 		ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:12:22-64
-uses-feature#android.hardware.bluetooth_le
-ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:14:5-89
-	android:required
-		ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:14:64-87
+uses-permission#android.permission. ACCESS_COARSE_LOCATION
+ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:14:5-82
 	android:name
-		ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:14:19-63
+		ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:14:22-79
+uses-feature#android.hardware.bluetooth_le
+ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:17:5-89
+	android:required
+		ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:17:64-87
+	android:name
+		ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:17:19-63
 application
-ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:17:5-34:19
+ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:20:5-37:19
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\LVillarroya Martinez\.gradle\caches\transforms-3\25012fcc08d4c5cf5a2844c1a21a6fbe\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\LVillarroya Martinez\.gradle\caches\transforms-3\25012fcc08d4c5cf5a2844c1a21a6fbe\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\LVillarroya Martinez\.gradle\caches\transforms-3\603d5b366cec0e2b4f7a40320b7dc059\transformed\constraintlayout-2.1.0\AndroidManifest.xml:9:5-20
@@ -104,35 +108,35 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\LV
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.5.0] C:\Users\LVillarroya Martinez\.gradle\caches\transforms-3\255d63c0f9f8f5d12ab3191ffb377750\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:23:9-35
+		ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:26:9-35
 	android:label
-		ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:21:9-41
+		ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:24:9-41
 	android:roundIcon
-		ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:22:9-54
+		ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:25:9-54
 	android:icon
-		ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:20:9-43
+		ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:23:9-43
 	android:allowBackup
-		ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:19:9-35
+		ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:22:9-35
 	android:theme
-		ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:24:9-46
+		ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:27:9-46
 	android:usesCleartextTraffic
-		ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:18:9-44
+		ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:21:9-44
 activity#org.example.lvilmar1.leireapp.MainActivity
-ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:25:9-33:20
+ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:28:9-36:20
 	android:exported
-		ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:27:13-36
+		ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:30:13-36
 	android:name
-		ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:26:13-41
+		ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:29:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:28:13-32:29
+ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:31:13-35:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:29:17-69
+ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:32:17-69
 	android:name
-		ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:29:25-66
+		ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:32:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:31:17-77
+ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:34:17-77
 	android:name
-		ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:31:27-74
+		ADDED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:34:27-74
 uses-sdk
 INJECTED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml
