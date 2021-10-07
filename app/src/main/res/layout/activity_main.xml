@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".logicaFake.MainActivity">
 
     <Button
         android:id="@+id/botonBuscarDispositivosBTLE"
@@ -59,7 +59,6 @@
         android:id="@+id/btnInsertar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="guardarDatos"
         android:text="Insertar datos"
         app:backgroundTint="@color/teal_700"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -67,7 +66,8 @@
         app:layout_constraintHorizontal_bias="0.625"
         app:layout_constraintStart_toStartOf="@+id/txtMediciones"
         app:layout_constraintTop_toBottomOf="@+id/txtMediciones"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        android:onClick="botonGuardar"/>
 
     <Button
         android:id="@+id/boton_arrancar_servicio"
@@ -114,9 +114,9 @@
         android:hint="Longitud"
         android:textAlignment="viewStart"
         android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="@+id/botonBuscarDispositivosBTLE"
+        app:layout_constraintEnd_toEndOf="@+id/boton_detener_servicio"
         app:layout_constraintHorizontal_bias="0.445"
-        app:layout_constraintStart_toStartOf="@+id/botonBuscarDispositivosBTLE"
+        app:layout_constraintStart_toStartOf="@+id/boton_detener_servicio"
         app:layout_constraintTop_toBottomOf="@+id/boton_detener_servicio" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
