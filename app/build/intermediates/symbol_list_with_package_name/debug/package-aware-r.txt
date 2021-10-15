@@ -1928,6 +1928,8 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id btnInsertar
+id btnObtenerTodasMediciones
+id btnUltimasMediciones
 id buttonPanel
 id cache_measures
 id cancel_button
@@ -2277,6 +2279,7 @@ id triangle
 id txtLatitud
 id txtLongitud
 id txtMediciones
+id txtNumeroMediciones
 id unchecked
 id uniform
 id unlabeled

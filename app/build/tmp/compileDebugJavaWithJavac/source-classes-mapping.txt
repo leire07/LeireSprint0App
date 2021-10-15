@@ -1,20 +1,20 @@
 org/example/lvilmar1/leireapp/Utilidades.java
  org.example.lvilmar1.leireapp.Utilidades
-org/example/lvilmar1/leireapp/logicaFake/MainActivity.java
- org.example.lvilmar1.leireapp.logicaFake.MainActivity
- org.example.lvilmar1.leireapp.logicaFake.MainActivity$1
- org.example.lvilmar1.leireapp.logicaFake.MainActivity$2
+org/example/lvilmar1/leireapp/BuildConfig.java
+ org.example.lvilmar1.leireapp.BuildConfig
 org/example/lvilmar1/leireapp/logicaFake/PeticionarioREST.java
  org.example.lvilmar1.leireapp.logicaFake.PeticionarioREST
  org.example.lvilmar1.leireapp.logicaFake.PeticionarioREST$RespuestaREST
 org/example/lvilmar1/leireapp/ServicioEscuharBeacons.java
  org.example.lvilmar1.leireapp.ServicioEscuharBeacons
+org/example/lvilmar1/leireapp/TramaIBeacon.java
+ org.example.lvilmar1.leireapp.TramaIBeacon
+org/example/lvilmar1/leireapp/logicaFake/MainActivity.java
+ org.example.lvilmar1.leireapp.logicaFake.MainActivity
+ org.example.lvilmar1.leireapp.logicaFake.MainActivity$1
+ org.example.lvilmar1.leireapp.logicaFake.MainActivity$2
 org/example/lvilmar1/leireapp/logicaFake/Logica.java
  org.example.lvilmar1.leireapp.logicaFake.Logica
  org.example.lvilmar1.leireapp.logicaFake.Logica$1
-org/example/lvilmar1/leireapp/BuildConfig.java
- org.example.lvilmar1.leireapp.BuildConfig
-org/example/lvilmar1/leireapp/TramaIBeacon.java
- org.example.lvilmar1.leireapp.TramaIBeacon
 org/example/lvilmar1/leireapp/logicaFake/Medicion.java
  org.example.lvilmar1.leireapp.logicaFake.Medicion
