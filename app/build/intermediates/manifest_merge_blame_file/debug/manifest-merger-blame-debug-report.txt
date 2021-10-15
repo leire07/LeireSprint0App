@@ -14,87 +14,93 @@
 11-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:5:5-81
 11-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:5:22-78
 12    <uses-permission android:name="android.permission.BLUETOOTH" />
-12-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:7:5-68
-12-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:7:22-65
+12-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:6:5-68
+12-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:6:22-65
 13    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
-13-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:8:5-74
-13-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:8:22-71
+13-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:7:5-74
+13-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:7:22-71
 14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-14-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:9:5-79
-14-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:9:22-76
+14-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:8:5-79
+14-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:8:22-76
 15    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
-15-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:10:5-76
-15-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:10:22-73
+15-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:9:5-76
+15-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:9:22-73
 16    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
-16-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:11:5-73
-16-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:11:22-70
+16-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:10:5-73
+16-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:10:22-70
 17    <uses-permission android:name="android.permission.INTERNET" />
-17-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:12:5-66
-17-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:12:22-64
+17-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:11:5-67
+17-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:11:22-64
 18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-18-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:9:5-79
-18-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:9:22-76
+18-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:8:5-79
+18-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:8:22-76
 19    <uses-permission android:name="android.permission. ACCESS_COARSE_LOCATION" />
-19-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:14:5-82
-19-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:14:22-79
+19-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:13:5-82
+19-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:13:22-79
 20
 21    <uses-feature
-21-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:17:5-89
+21-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:15:5-17:35
 22        android:name="android.hardware.bluetooth_le"
-22-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:17:19-63
+22-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:16:9-53
 23        android:required="true" />
-23-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:17:64-87
+23-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:17:9-32
 24
 25    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
-25-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:10:5-76
-25-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:10:22-73
+25-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:9:5-76
+25-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:9:22-73
 26    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
-26-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:11:5-73
-26-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:11:22-70
+26-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:10:5-73
+26-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:10:22-70
 27    <uses-permission android:name="android.permission.BLUETOOTH" />
-27-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:7:5-68
-27-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:7:22-65
+27-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:6:5-68
+27-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:6:22-65
 28    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
-28-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:8:5-74
-28-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:8:22-71
+28-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:7:5-74
+28-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:7:22-71
 29
 30    <application
-30-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:20:5-37:19
+30-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:24:5-44:19
 31        android:allowBackup="true"
-31-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:22:9-35
+31-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:25:9-35
 32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 32-->[androidx.core:core:1.5.0] C:\Users\LVillarroya Martinez\.gradle\caches\transforms-3\255d63c0f9f8f5d12ab3191ffb377750\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
 33        android:debuggable="true"
 34        android:icon="@mipmap/ic_launcher"
-34-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:23:9-43
+34-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:26:9-43
 35        android:label="@string/app_name"
-35-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:24:9-41
+35-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:27:9-41
 36        android:roundIcon="@mipmap/ic_launcher_round"
-36-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:25:9-54
+36-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:28:9-54
 37        android:supportsRtl="true"
-37-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:26:9-35
+37-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:29:9-35
 38        android:testOnly="true"
 39        android:theme="@style/Theme.LeireApp"
-39-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:27:9-46
+39-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:30:9-46
 40        android:usesCleartextTraffic="true" >
-40-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:21:9-44
+40-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:31:9-44
 41        <activity
-41-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:28:9-36:20
-42            android:name="org.example.lvilmar1.leireapp.logicaFake.MainActivity"
-42-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:29:13-52
-43            android:exported="true" >
-43-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:30:13-36
-44            <intent-filter>
-44-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:31:13-35:29
-45                <action android:name="android.intent.action.MAIN" />
-45-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:32:17-69
-45-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:32:25-66
-46
-47                <category android:name="android.intent.category.LAUNCHER" />
-47-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:34:17-77
-47-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:34:27-74
-48            </intent-filter>
-49        </activity>
-50    </application>
-51
-52</manifest>
+41-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:32:9-34:39
+42            android:name="org.example.lvilmar1.leireapp.TodasLasMediciones"
+42-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:33:13-47
+43            android:exported="true" />
+43-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:34:13-36
+44        <activity
+44-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:35:9-43:20
+45            android:name="org.example.lvilmar1.leireapp.logicaFake.MainActivity"
+45-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:36:13-52
+46            android:exported="true" >
+46-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:37:13-36
+47            <intent-filter>
+47-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:38:13-42:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:39:17-69
+48-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:39:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:41:17-77
+50-->C:\Users\LVillarroya Martinez\Desktop\Repositorios Sprint 0\LeireSprint0App\app\src\main\AndroidManifest.xml:41:27-74
+51            </intent-filter>
+52        </activity>
+53    </application>
+54
+55</manifest>
