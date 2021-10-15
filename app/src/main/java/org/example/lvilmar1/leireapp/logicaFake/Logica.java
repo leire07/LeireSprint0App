@@ -15,7 +15,7 @@ public class Logica {
         //la contrabarra es pa clavar la cometa dins del string sense tancar el stringç
         //http://localhost/phpmyadmin/sql.php?db=android_mysql&table=datosmedidos&pos=0
         String textoJSON = "{\"Medicion\":\"" + medicion.getMedicion() + "\", \"Latitud\":\"" + medicion.getLatitud() + " \", \"Longitud\":\"" + medicion.getLongitud() + "\"}";
-        elPeticionario.hacerPeticionREST("POST", "http://192.168.64.2/backend_SprintLeire/guardarMediciones.php", textoJSON,
+        elPeticionario.hacerPeticionREST("POST", "http://192.168.0.115/backend_SprintLeire/src/guardarDatos.php", textoJSON,
                 new PeticionarioREST.RespuestaREST() {
                     @Override
                     public void callback(int codigo, String cuerpo) {

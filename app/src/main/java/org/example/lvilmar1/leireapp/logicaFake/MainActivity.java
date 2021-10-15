@@ -2,6 +2,8 @@ package org.example.lvilmar1.leireapp.logicaFake;
 // ------------------------------------------------------------------
 // ------------------------------------------------------------------
 
+import static java.lang.Integer.parseInt;
+
 import android.Manifest;
 import android.annotation.SuppressLint;
 import android.bluetooth.BluetoothAdapter;
@@ -47,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
 
     EditText txtMediciones;
     TextView txtLatitud;
-    TextView txtLongitud;
+    TextView txtLongitud1;
     Button btnInsertar;
     Logica laLogica = new Logica();
 
@@ -299,15 +301,17 @@ public class MainActivity extends AppCompatActivity {
                 //Location wasnt gathered
             }else{
                 latitude = location.getLatitude();
+                Log.d("Longitud", String.valueOf(latitude));
                 txtLatitud.setText(String.valueOf(latitude));
-                txtLongitud.setText(String.valueOf(longitude));
+                txtLongitud1.setText(String.valueOf(longitude));
                 longitude = location.getLongitude();
+                Log.d("Latitud", String.valueOf(longitude));
             }
         }
     }
 
     public void botonGuardar(View view){
-        Medicion medicion=new Medicion(Integer.parseInt(txtMediciones.getText().toString()));
+        Medicion medicion=new Medicion(parseInt(txtMediciones.getText().toString()),latitude, longitude);
         laLogica.guardarDatos(medicion);
     }
 
@@ -361,7 +365,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         txtMediciones = findViewById(R.id.txtMediciones);
-        txtLongitud=findViewById(R.id.txtLongitud);
+        txtLongitud1=findViewById(R.id.txtLongitud);
         txtLatitud=findViewById(R.id.txtLatitud);
 
         Log.d(ETIQUETA_LOG, " onCreate(): empieza ");

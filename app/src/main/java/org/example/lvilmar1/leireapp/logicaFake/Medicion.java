@@ -5,11 +5,12 @@ public class Medicion {
     public double latitud;
     public double longitud;
 
-    public Medicion(int medicion) {
+    public Medicion(int medicion, double latitud, double longitud) {
         this.medicion = medicion;
         this.latitud = latitud;
         this.longitud = longitud;
     }
+
 
     public int getMedicion() {
         return medicion;
