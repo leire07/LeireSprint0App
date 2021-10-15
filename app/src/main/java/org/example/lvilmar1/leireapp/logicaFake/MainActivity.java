@@ -31,6 +31,7 @@ import androidx.core.content.ContextCompat;
 
 import org.example.lvilmar1.leireapp.R;
 import org.example.lvilmar1.leireapp.ServicioEscuharBeacons;
+import org.example.lvilmar1.leireapp.TodasLasMediciones;
 import org.example.lvilmar1.leireapp.TramaIBeacon;
 import org.example.lvilmar1.leireapp.Utilidades;
 
@@ -51,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
     TextView txtLatitud;
     TextView txtLongitud1;
     Button btnInsertar;
+    Button btnTodas;
     Logica laLogica = new Logica();
 
 
@@ -367,6 +369,7 @@ public class MainActivity extends AppCompatActivity {
         txtMediciones = findViewById(R.id.txtMediciones);
         txtLongitud1=findViewById(R.id.txtLongitud);
         txtLatitud=findViewById(R.id.txtLatitud);
+        btnTodas=(Button)findViewById(R.id.btnObtenerTodasMediciones);
 
         Log.d(ETIQUETA_LOG, " onCreate(): empieza ");
 
@@ -375,6 +378,14 @@ public class MainActivity extends AppCompatActivity {
         Log.d(ETIQUETA_LOG, " onCreate(): termina ");
 
         obtenerCoordenadas();
+
+        btnTodas.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i= new Intent(MainActivity.this, TodasLasMediciones.class);
+                startActivity(i);
+            }
+        });
 
     } // onCreate()
 
