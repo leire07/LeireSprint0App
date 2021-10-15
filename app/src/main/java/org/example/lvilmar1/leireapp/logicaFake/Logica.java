@@ -4,6 +4,10 @@ import android.util.Log;
 import android.view.View;
 
 public class Logica {
+    //Métodos obligatorios:
+    // guardarMediciones
+    //Z--> obtenerUltimasMediciones -->[mediciones]
+    //obtenerTodasLasMediciones() --> [mediciones]
     public void guardarDatos(Medicion medicion) {
 
         PeticionarioREST elPeticionario = new PeticionarioREST();
