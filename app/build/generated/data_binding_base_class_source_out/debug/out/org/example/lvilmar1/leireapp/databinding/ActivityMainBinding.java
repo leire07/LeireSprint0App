@@ -52,10 +52,10 @@ public final class ActivityMainBinding implements ViewBinding {
   public final TextView txtLongitud;
 
   @NonNull
-  public final EditText txtMediciones;
+  public final EditText txtNumeroMediciones;
 
   @NonNull
-  public final EditText txtNumeroMediciones;
+  public final EditText txtTodas;
 
   private ActivityMainBinding(@NonNull ConstraintLayout rootView,
       @NonNull Button botonArrancarServicio, @NonNull Button botonBuscarDispositivosBTLE,
@@ -63,8 +63,8 @@ public final class ActivityMainBinding implements ViewBinding {
       @NonNull Button botonDetenerBusquedaDispositivosBTLE, @NonNull Button botonDetenerServicio,
       @NonNull Button btnInsertar, @NonNull Button btnObtenerTodasMediciones,
       @NonNull Button btnUltimasMediciones, @NonNull TextView txtLatitud,
-      @NonNull TextView txtLongitud, @NonNull EditText txtMediciones,
-      @NonNull EditText txtNumeroMediciones) {
+      @NonNull TextView txtLongitud, @NonNull EditText txtNumeroMediciones,
+      @NonNull EditText txtTodas) {
     this.rootView = rootView;
     this.botonArrancarServicio = botonArrancarServicio;
     this.botonBuscarDispositivosBTLE = botonBuscarDispositivosBTLE;
@@ -76,8 +76,8 @@ public final class ActivityMainBinding implements ViewBinding {
     this.btnUltimasMediciones = btnUltimasMediciones;
     this.txtLatitud = txtLatitud;
     this.txtLongitud = txtLongitud;
-    this.txtMediciones = txtMediciones;
     this.txtNumeroMediciones = txtNumeroMediciones;
+    this.txtTodas = txtTodas;
   }
 
   @Override
@@ -167,23 +167,23 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.txtMediciones;
-      EditText txtMediciones = ViewBindings.findChildViewById(rootView, id);
-      if (txtMediciones == null) {
-        break missingId;
-      }
-
       id = R.id.txtNumeroMediciones;
       EditText txtNumeroMediciones = ViewBindings.findChildViewById(rootView, id);
       if (txtNumeroMediciones == null) {
         break missingId;
       }
 
+      id = R.id.txtTodas;
+      EditText txtTodas = ViewBindings.findChildViewById(rootView, id);
+      if (txtTodas == null) {
+        break missingId;
+      }
+
       return new ActivityMainBinding((ConstraintLayout) rootView, botonArrancarServicio,
           botonBuscarDispositivosBTLE, botonBuscarNuestroDispositivoBTLE,
           botonDetenerBusquedaDispositivosBTLE, botonDetenerServicio, btnInsertar,
-          btnObtenerTodasMediciones, btnUltimasMediciones, txtLatitud, txtLongitud, txtMediciones,
-          txtNumeroMediciones);
+          btnObtenerTodasMediciones, btnUltimasMediciones, txtLatitud, txtLongitud,
+          txtNumeroMediciones, txtTodas);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

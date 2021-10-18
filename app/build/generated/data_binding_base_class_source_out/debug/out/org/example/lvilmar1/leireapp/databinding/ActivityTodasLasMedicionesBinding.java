@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -22,10 +23,18 @@ public final class ActivityTodasLasMedicionesBinding implements ViewBinding {
   @NonNull
   public final Button btnVolver;
 
+  @NonNull
+  public final TextView txtMedic;
+
+  @NonNull
+  public final TextView txtTodas;
+
   private ActivityTodasLasMedicionesBinding(@NonNull ConstraintLayout rootView,
-      @NonNull Button btnVolver) {
+      @NonNull Button btnVolver, @NonNull TextView txtMedic, @NonNull TextView txtTodas) {
     this.rootView = rootView;
     this.btnVolver = btnVolver;
+    this.txtMedic = txtMedic;
+    this.txtTodas = txtTodas;
   }
 
   @Override
@@ -61,7 +70,20 @@ public final class ActivityTodasLasMedicionesBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityTodasLasMedicionesBinding((ConstraintLayout) rootView, btnVolver);
+      id = R.id.txtMedic;
+      TextView txtMedic = ViewBindings.findChildViewById(rootView, id);
+      if (txtMedic == null) {
+        break missingId;
+      }
+
+      id = R.id.txtTodas;
+      TextView txtTodas = ViewBindings.findChildViewById(rootView, id);
+      if (txtTodas == null) {
+        break missingId;
+      }
+
+      return new ActivityTodasLasMedicionesBinding((ConstraintLayout) rootView, btnVolver, txtMedic,
+          txtTodas);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
