@@ -2283,8 +2283,9 @@ id transition_transform
 id triangle
 id txtLatitud
 id txtLongitud
-id txtMediciones
+id txtMedic
 id txtNumeroMediciones
+id txtTodas
 id unchecked
 id uniform
 id unlabeled

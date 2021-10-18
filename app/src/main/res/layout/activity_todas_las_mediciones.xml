@@ -3,14 +3,39 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".TodasLasMediciones">
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtMedic"
+        android:layout_width="315dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="16dp"
+        android:text="Mostrar todas las mediciones"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtTodas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtMedic" />
 
     <Button
         android:id="@+id/btnVolver"
         android:layout_width="117dp"
         android:layout_height="51dp"
+        android:layout_marginBottom="50dp"
         android:text="Volver"
-        tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="629dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

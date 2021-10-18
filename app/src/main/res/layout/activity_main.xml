@@ -47,7 +47,7 @@
         app:layout_constraintTop_toBottomOf="@+id/botonDetenerBusquedaDispositivosBTLE" />
 
     <EditText
-        android:id="@+id/txtMediciones"
+        android:id="@+id/txtTodas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
@@ -82,17 +82,17 @@
         android:text="Guardar medición"
         android:textSize="12sp"
         app:backgroundTint="@color/teal_700"
-        app:layout_constraintEnd_toEndOf="@+id/txtMediciones"
+        app:layout_constraintEnd_toEndOf="@+id/txtTodas"
         app:layout_constraintHorizontal_bias="0.541"
-        app:layout_constraintStart_toStartOf="@+id/txtMediciones"
-        app:layout_constraintTop_toBottomOf="@+id/txtMediciones" />
+        app:layout_constraintStart_toStartOf="@+id/txtTodas"
+        app:layout_constraintTop_toBottomOf="@+id/txtTodas" />
 
     <Button
         android:id="@+id/btnObtenerTodasMediciones"
         android:layout_width="257dp"
         android:layout_height="36dp"
         android:layout_marginTop="4dp"
-        android:onClick="botonGuardar"
+        android:onClick="obtenerTodasLasMediciones"
         android:text="Obtener todas las mediciones"
         android:textSize="12sp"
         app:backgroundTint="@color/teal_700"
