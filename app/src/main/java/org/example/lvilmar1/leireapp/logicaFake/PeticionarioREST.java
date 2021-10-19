@@ -11,6 +11,12 @@ import android.os.AsyncTask;
 import android.util.Log;
 
 // ------------------------------------------------------------------------
+//
+// PeticionarioREST
+// Leire Villarroya Martínez
+//18/10/21
+// Clase para hacer peticiones rest
+//
 // ------------------------------------------------------------------------
 public class PeticionarioREST extends AsyncTask<Void, Void, Boolean> {
 

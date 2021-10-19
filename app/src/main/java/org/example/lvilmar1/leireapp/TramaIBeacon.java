@@ -4,7 +4,10 @@ package org.example.lvilmar1.leireapp;
 import java.util.Arrays;
 
 // -----------------------------------------------------------------------------------
-// @author: Jordi Bataller i Mascarell
+// TramaIBeacon
+// Leire Villarroya Martínez
+// 18/10/21
+// Clase para las tramas de beacons
 // -----------------------------------------------------------------------------------
 public class TramaIBeacon {
     private byte[] prefijo = null; // 9 bytes

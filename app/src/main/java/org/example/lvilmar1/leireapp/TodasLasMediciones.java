@@ -12,6 +12,13 @@ import android.widget.TextView;
 import org.example.lvilmar1.leireapp.logicaFake.Logica;
 import org.example.lvilmar1.leireapp.logicaFake.Medicion;
 
+//
+// TodasLasMediciones
+// Leire Villarroya Martínez
+//18/10/21
+// Clase para crear un nuevo intent y mostrar todos los datos de la bbdd
+//
+
 public class TodasLasMediciones extends AppCompatActivity {
 
     Logica laLogica = new Logica();

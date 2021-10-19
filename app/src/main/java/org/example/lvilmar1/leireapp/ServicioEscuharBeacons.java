@@ -12,6 +12,12 @@ import static android.app.Service.START_STICKY;
 public class ServicioEscuharBeacons  extends IntentService {
 
     // ---------------------------------------------------------------------------------------------
+    //
+    // Logica
+    // Leire Villarroya Martínez
+    //18/10/21
+    // Logica para probar los métodos hablados en clase
+    //
     // ---------------------------------------------------------------------------------------------
     private static final String ETIQUETA_LOG = ">>>>";
 

@@ -1,5 +1,11 @@
 package org.example.lvilmar1.leireapp.logicaFake;
 
+//
+// Medicion
+// Leire Villarroya Martínez
+//18/10/21
+// Pojo para el objeto Medicion
+//
 public class Medicion {
     private int medicion;
     private double latitud;
