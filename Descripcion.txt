@@ -1,0 +1,3 @@
+Aplicación para recibir beacons, guardar mediciones y mostrar todas las mediciones guardadas en nuestra base de datos.
+Para guardar una medición, hay que introducir una medición donde se indica y darle al botón.
+Para comprobar que se ha recibido un beacon de nuestro sensor, filtramos por el nombre que anteriormente hemos puesto.
