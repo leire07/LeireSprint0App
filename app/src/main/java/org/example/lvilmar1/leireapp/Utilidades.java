@@ -6,7 +6,11 @@ import java.nio.ByteBuffer;
 import java.util.UUID;
 
 // -----------------------------------------------------------------------------------
-// @author: Jordi Bataller i Mascarell
+//
+// Utilidades
+// Leire Villarroya Martínez
+//18/10/21
+//
 // -----------------------------------------------------------------------------------
 public class Utilidades {
 

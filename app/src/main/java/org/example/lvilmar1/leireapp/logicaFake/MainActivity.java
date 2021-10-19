@@ -38,6 +38,12 @@ import org.example.lvilmar1.leireapp.Utilidades;
 import java.util.List;
 
 // ------------------------------------------------------------------
+//
+// MainActivity
+// Leire Villarroya Martínez
+//18/10/21
+// MainActivity de la aplicación
+//
 // ------------------------------------------------------------------
 
 public class MainActivity extends AppCompatActivity {

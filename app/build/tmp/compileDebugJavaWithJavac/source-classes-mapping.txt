@@ -1,14 +1,11 @@
 org/example/lvilmar1/leireapp/Utilidades.java
  org.example.lvilmar1.leireapp.Utilidades
-org/example/lvilmar1/leireapp/logicaFake/MainActivity.java
- org.example.lvilmar1.leireapp.logicaFake.MainActivity
- org.example.lvilmar1.leireapp.logicaFake.MainActivity$1
- org.example.lvilmar1.leireapp.logicaFake.MainActivity$2
+org/example/lvilmar1/leireapp/logicaFake/Medicion.java
+ org.example.lvilmar1.leireapp.logicaFake.Medicion
 org/example/lvilmar1/leireapp/databinding/ActivityTodasLasMedicionesBinding.java
  org.example.lvilmar1.leireapp.databinding.ActivityTodasLasMedicionesBinding
-org/example/lvilmar1/leireapp/TodasLasMediciones.java
- org.example.lvilmar1.leireapp.TodasLasMediciones
- org.example.lvilmar1.leireapp.TodasLasMediciones$1
+org/example/lvilmar1/leireapp/TramaIBeacon.java
+ org.example.lvilmar1.leireapp.TramaIBeacon
 org/example/lvilmar1/leireapp/databinding/ContentScrollingBinding.java
  org.example.lvilmar1.leireapp.databinding.ContentScrollingBinding
 org/example/lvilmar1/leireapp/logicaFake/PeticionarioREST.java
@@ -16,15 +13,18 @@ org/example/lvilmar1/leireapp/logicaFake/PeticionarioREST.java
  org.example.lvilmar1.leireapp.logicaFake.PeticionarioREST$RespuestaREST
 org/example/lvilmar1/leireapp/ServicioEscuharBeacons.java
  org.example.lvilmar1.leireapp.ServicioEscuharBeacons
+org/example/lvilmar1/leireapp/databinding/ActivityMainBinding.java
+ org.example.lvilmar1.leireapp.databinding.ActivityMainBinding
+org/example/lvilmar1/leireapp/BuildConfig.java
+ org.example.lvilmar1.leireapp.BuildConfig
+org/example/lvilmar1/leireapp/logicaFake/MainActivity.java
+ org.example.lvilmar1.leireapp.logicaFake.MainActivity
+ org.example.lvilmar1.leireapp.logicaFake.MainActivity$1
+ org.example.lvilmar1.leireapp.logicaFake.MainActivity$2
+org/example/lvilmar1/leireapp/TodasLasMediciones.java
+ org.example.lvilmar1.leireapp.TodasLasMediciones
+ org.example.lvilmar1.leireapp.TodasLasMediciones$1
 org/example/lvilmar1/leireapp/logicaFake/Logica.java
  org.example.lvilmar1.leireapp.logicaFake.Logica
  org.example.lvilmar1.leireapp.logicaFake.Logica$1
  org.example.lvilmar1.leireapp.logicaFake.Logica$2
-org/example/lvilmar1/leireapp/BuildConfig.java
- org.example.lvilmar1.leireapp.BuildConfig
-org/example/lvilmar1/leireapp/databinding/ActivityMainBinding.java
- org.example.lvilmar1.leireapp.databinding.ActivityMainBinding
-org/example/lvilmar1/leireapp/TramaIBeacon.java
- org.example.lvilmar1.leireapp.TramaIBeacon
-org/example/lvilmar1/leireapp/logicaFake/Medicion.java
- org.example.lvilmar1.leireapp.logicaFake.Medicion
