@@ -10,16 +10,12 @@ public class Medicion {
     private int medicion;
     private double latitud;
     private double longitud;
-    private double major;
-    private double minor;
 
 
-    public Medicion(int medicion, double latitud, double longitud, int major, int minor) {
+    public Medicion(int medicion, double latitud, double longitud) {
         this.medicion = medicion;
         this.latitud = latitud;
         this.longitud = longitud;
-        this.major = major;
-        this.minor = minor;
     }
 
 
@@ -33,11 +29,5 @@ public class Medicion {
 
     public double getLongitud() {
         return longitud;
-    }
-    public double getMajor() {
-        return major;
-    }
-    public double getMinor() {
-        return minor;
     }
 }

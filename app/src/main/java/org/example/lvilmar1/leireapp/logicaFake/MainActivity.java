@@ -163,8 +163,17 @@ public class MainActivity extends AppCompatActivity {
                     + Utilidades.bytesToInt(tib.getMinor()) + " ) ");
             Log.d(ETIQUETA_LOG, " txPower  = " + Integer.toHexString(tib.getTxPower()) + " ( " + tib.getTxPower() + " )");
             Log.d(ETIQUETA_LOG, " ******************");
-            minor=Utilidades.bytesToInt(tib.getMinor());
-            major=Utilidades.bytesToInt(tib.getMajor());
+
+            major = Utilidades.bytesToInt(tib.getMajor());
+            minor = Utilidades.bytesToInt(tib.getMinor());
+
+            Logica logica = new Logica();
+
+            Medicion medicion = new Medicion((int) minor, latitude,longitude);
+
+            logica.guardarDatos(medicion);
+
+            Log.d("test", String.valueOf(medicion.getMedicion()));
         }
     } // ()
 
@@ -326,7 +335,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void botonGuardar(View view){
-        Medicion medicion=new Medicion(parseInt(txtMediciones.getText().toString()),latitude, longitude, major, minor);
+        Medicion medicion=new Medicion(parseInt(txtMediciones.getText().toString()),latitude, longitude);
         laLogica.guardarDatos(medicion);
         Log.d("Hoola", "Entra en botonGuardar");
     }
